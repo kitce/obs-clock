@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.clock {
+  color: #ffffff;
+  animation: glow 2s ease-in-out infinite alternate;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20vw;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ffffff,
+                 0 0 20px #ffffff,
+                 0 0 30px #ffffff,
+                 0 0 40px #ffffff,
+                 0 0 60px #55aa7f,
+                 0 0 70px #55aa7f,
+                 0 0 80px #55aa7f,
+                 0 0 90px #55aa7f;
+  }
+  to {
+    text-shadow: 0 0 5px #ffffff,
+                 0 0 10px #ffffff,
+                 0 0 15px #ffffff,
+                 0 0 20px #ffffff,
+                 0 0 30px #55aa7f,
+                 0 0 35px #55aa7f,
+                 0 0 40px #55aa7f,
+                 0 0 45px #55aa7f;
+  }
+}
