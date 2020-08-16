@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
+:root {
+  --shadow-color: #55aa7f;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,19 +30,19 @@ body {
                  0 0 20px #ffffff,
                  0 0 30px #ffffff,
                  0 0 40px #ffffff,
-                 0 0 60px #55aa7f,
-                 0 0 70px #55aa7f,
-                 0 0 80px #55aa7f,
-                 0 0 90px #55aa7f;
+                 0 0 60px var(--shadow-color),
+                 0 0 70px var(--shadow-color),
+                 0 0 80px var(--shadow-color),
+                 0 0 90px var(--shadow-color);
   }
   to {
     text-shadow: 0 0 5px #ffffff,
                  0 0 10px #ffffff,
                  0 0 15px #ffffff,
                  0 0 20px #ffffff,
-                 0 0 30px #55aa7f,
-                 0 0 35px #55aa7f,
-                 0 0 40px #55aa7f,
-                 0 0 45px #55aa7f;
+                 0 0 30px var(--shadow-color),
+                 0 0 35px var(--shadow-color),
+                 0 0 40px var(--shadow-color),
+                 0 0 45px var(--shadow-color);
   }
 }
